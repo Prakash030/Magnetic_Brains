@@ -1,0 +1,71 @@
+.s-services{
+    background: var(--black);
+    padding: 2rem;
+    width: 100%;
+    border-radius: 50px;
+    border: 6px solid gray;
+    box-shadow: 0px 23px 50px -8px rgba(0, 0, 0, 0.75);
+}
+.s-info p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.image-container img{
+    height: 30rem;
+}
+
+.s-services img{
+    height: 20rem;
+    width: 10rem;
+}
+
+.s-services{
+    gap: 2rem;
+}
+.s-contain{
+    margin-bottom: 2rem;
+}
+.s-contain .s-left{
+    font-size: 2rem;
+    font-weight: 700;
+    color: brown;
+    transition: all 300ms ease;
+}
+.s-contain .s-left:hover{
+    color: white;
+    cursor: pointer;
+}
+.s-contain .s-right{
+    font-weight: 500;
+    color: gray;
+}
+
+
+.s-process{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.s-container{
+    margin-top: 2.5rem;
+    gap: 3rem;
+}
+.s-card{
+    background: white;
+    padding: 3rem;
+    width: 250px;
+    height: 250px;
+    gap: 3rem;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 23px 50px -8px rgba(0, 0, 0, 0.75);
+    transition: all 250ms ease-in;
+}
+.s-card img{
+    height: 12rem;
+}
+.s-card:hover{
+    scale: 0.9;
+    cursor: pointer;
+}

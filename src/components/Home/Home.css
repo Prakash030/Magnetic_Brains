@@ -1,0 +1,63 @@
+ 
+
+.image-container img{
+    height: 42rem;
+    width: 100%;
+}
+
+.home-container{
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.leftSide .button{
+    margin-top: 2rem;
+}
+
+.rightSide img{
+    border: 6px solid var(--primary);
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.home-services{
+    margin-top: 2.5rem;
+    padding: 2.5rem;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+}
+
+.service-rightSide img{
+    border: 6px solid var(--primary);
+    height: 20rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.home-process{
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+}
+
+.container{
+    margin-top: 2.5rem;
+    gap: 3rem;
+}
+.card{
+    background-image: linear-gradient(to right, #141e30, #243b55);
+    padding: 3rem;
+    width: 250px;
+    height: 250px;
+    gap: 3rem;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: var(--shadow);
+}
+.card>span{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+/* animation */
+.animate{
+    animation-name: fadeInOut, moveLeft300px, bounce;
+animation-duration: 2.5s, 5s, 1s;
+animation-iteration-count: 2, 1, 5;
+}

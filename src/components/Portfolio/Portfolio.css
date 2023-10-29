@@ -1,0 +1,54 @@
+.p-head{
+    /* margin-top: 2rem; */
+    padding-top: 2rem;
+    color: rgba(196, 29, 29, 0.7);
+    text-decoration: none;
+}
+.p-desc{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: gray;
+}
+.p-individul .c-heading{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: orange;
+}
+.pp-container{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.p-card{
+    gap: 12rem;
+    margin-bottom: 2rem;
+}
+.p-card .p-left img{
+    height: 20rem;
+    border: 6px solid rgba(160, 157, 157,0.5);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.p-right h3{
+    color: green;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.p-right span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:rgb(99, 98, 98);
+}
+.button{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 400ms ease-in;
+}
+.button:hover{
+    color: orange;
+    background: #000;
+    scale: 0.8;
+}
